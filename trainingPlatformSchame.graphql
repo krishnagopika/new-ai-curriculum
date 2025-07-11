@@ -1,0 +1,121 @@
+type User {
+  userId: ID!
+  name: String!
+  email: String!
+  githubId: String
+  progress: Int
+  category: UserCategory!
+  status: Status!
+  selectedTrainingTracks: [TrainingTrackSelection!]!
+}
+
+type TrainingTrackSelection {
+  trackId: ID!
+  role: String!
+  skillsByCategory: [SkillCategoryGroup!]!
+}
+
+type SkillCategoryGroup {
+  category: Catrgory!
+  skills: [Skill!]!
+}
+
+type Skill {
+  skillId: ID!
+  skillName: String!
+  description: String!
+  level: SkillLevel!
+  progressPercent: Int
+  tags: [String]
+  contents: [SkillContent!]!
+}
+
+union SkillContent = Module | Lab
+
+union LearningActivity = Topic | Lab 
+
+
+type Module {
+  moduleId: ID!
+  title: String!
+  description: String!
+  order: Int!
+  topics: [LearningActivity!]!
+}
+
+type Topic {
+  topicId: ID!
+  title: String!
+  activityType: ActivityType!
+  description: String!
+  order: Int!
+  weightage: Int!
+  durationMinutes: Int!
+  mandatory: Boolean!
+  status: Status!
+  lastAccessed: String
+  tags: [String]
+  content: [ContentResource!]!
+}
+
+type Lab {
+  labId: ID!
+  title: String!
+  activityType: ActivityType!
+  description: String!
+  status: Status!
+  mandatory: Boolean!
+  weightage: Int!
+  score: Int
+  lastAccessed: String
+  tags: [String]
+  content: [ContentResource!]!
+}
+
+type ContentResource {
+  contentId: ID!
+  type: String!
+  resourceType: String!
+  url: String!
+}
+
+enum ActivityType {
+  VIDEO
+  PODCAST
+  READING
+  LIVE_LECTURE
+  LAB_CODING
+  LAB_PROJECT
+  PROJECT
+  ASSIGNMENT
+  EXAM
+  MOCK_INTERVIEW
+  SELF_STUDY
+}
+
+enum Status {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum SkillLevel {
+  PRIMER
+  REGULAR
+}
+enum UserCategory {
+  ENTRY_LEVEL
+  EXPERIENCED_DEVELOPER
+}
+
+enum Catrgory {
+  FRONTEND
+  BACKEND
+  DEVOPS
+  DATA_SCIENCE
+  MACHINE_LEARNING
+  AI
+  CLOUD_COMPUTING
+}
+
+
