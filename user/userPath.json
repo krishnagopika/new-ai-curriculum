@@ -1,48 +1,35 @@
 {
-  "userPathId": "up_12345_path_ai_fullstack_001",
+  "Id": "up_12345_path_ai_fullstack_001",
   "userId": "user_12345",
   "pathId": "path_ai_fullstack_001",
   "status": "in_progress",
   "progress_percentage": 45.5,
   "started_at": "2024-01-15T10:30:00Z",
-  "estimated_completion": "2024-03-15T10:30:00Z",
+  "last_accessed": "2024-01-20T14:30:00Z",
   "user_units": [
+    {
+      "userUnitId": "FRONTEND_PRIMER",
+      "unitId": "unit_html_css",
+      "added_at": "2024-01-15T10:30:00Z"
+    },
     {
       "userUnitId": "uu_12345_unit_frontend_001",
       "unitId": "unit_frontend_001",
-      "status": "in_progress",
-      "added_at": "2024-01-15T10:30:00Z",
-      "reason": "mandatory_starter",
-      "progress_percentage": 60.0
+      "added_at": "2024-01-15T10:30:00Z"
     },
     {
       "userUnitId": "uu_12345_unit_react_001",
       "unitId": "unit_react_001",
-      "status": "not_started",
-      "added_at": "2024-01-20T14:30:00Z",
-      "reason": "user_choice_frontend",
-      "progress_percentage": 0.0
+      "added_at": "2024-01-20T14:30:00Z"
     },
     {
       "userUnitId": "uu_12345_unit_primer_001",
       "unitId": "unit_primer_001",
-      "status": "completed",
-      "added_at": "2024-01-15T10:30:00Z",
-      "reason": "mandatory_starter",
-      "progress_percentage": 100.0
+      "added_at": "2024-01-15T10:30:00Z"
     }
   ],
   "user_choices": {
-    "frontend_framework": "react",
-    "backend_technology": "node_express",
-    "database_preference": "mongodb"
-  },
-  "adaptive_recommendations": [
-    {
-      "unitId": "unit_js_deep_dive",
-      "reason": "low_assessment_score",
-      "suggested_at": "2024-01-25T10:30:00Z",
-      "priority": "high"
-    }
-  ]
+    "categories": ["frontend", "backend", "database"],
+    "chosen_units": ["unit_frontend_001", "unit_react_001", "unit_primer_001"]
+  }
 }

@@ -1,18 +1,32 @@
 {
-  "userAssessmentId": "uas_12345_node_as",
+  "Id": "uas_12345_node_as",
   "userId": "user_12345",
   "assessmentId": "node_as",
-  "userModuleId": "um_12345_mod_node_basics",
   "status": "completed",
-  "score": 85,
+  "score": 80,
   "max_score": 100,
   "started_at": "2024-01-19T10:00:00Z",
   "completed_at": "2024-01-19T10:45:00Z",
-  "time_spent_minutes": 45,
-  "attempts": 1,
-  "attempts_allowed": 3,
   "passing_score": 70,
   "passed": true,
-  "help_requests": [],
-  "notes": "Strong performance, understood concepts well"
+  "attempts_allowed": 3,
+  "attempts": 2,
+  "submissions": [
+    {
+      "submissionId": "sub_001",
+      "current": false,
+      "started_at": "2024-01-19T10:30:00Z",
+      "submitted_at": "2024-01-18T14:30:00Z",
+      "assessment_url": "https://github.com/user/react-first-app-attempt1",
+      "score": 65
+    },
+    {
+      "submissionId": "sub_002",
+      "current": true,
+      "started_at": "2024-01-19T10:30:00Z",
+      "submitted_at": "2024-01-18T15:45:00Z",
+      "assessment_url": "https://github.com/user/react-first-app-final",
+      "score": 80
+    }
+  ]
 }

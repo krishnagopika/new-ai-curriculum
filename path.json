@@ -1,14 +1,35 @@
 {
-    "pathId": "path_ai_fullstack_001",
+    "Id": "path_ai_fullstack_001",
     "role": "AI Powered Fullstack Developer",
     "categories": ["AI", "Fullstack"],
     "units": [
         {
-        "unitId": "",
-        "category" : "FRONTEND",
-        "unitType" : "PRIMER",
-        "mandatory": true,
-        "hidden": false
+            "unitId": "FRONTEND_PRIMER",
+            "category" : "FRONTEND",
+            "unitType" : "PRIMER",
+            "mandatory": true,
+            "default": true
+        },
+        {
+            "unitId": "",
+            "category" : "FRONTEND",
+            "unitType" : "MODULE",
+            "mandatory": true,
+            "default": false
+        },
+        {
+            "unitId": "",
+            "category" : "BACKEND",
+            "unitType" : "MODULE",
+            "mandatory": true,
+            "default": false
+        },
+        {
+            "unitId": "",
+            "category" : "DATABASE",
+            "unitType" : "MODULE",
+            "mandatory": true,
+            "default": false
         }
     ]
 }

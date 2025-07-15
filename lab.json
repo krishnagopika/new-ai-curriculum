@@ -1,5 +1,5 @@
 {
-  "labId": "lab_node_fs",
+  "Id": "lab_node_fs",
   "title": "Node.js File System",
   "activityType": "LAB_CODING",
   "description": "Coding lab on Node.js File System",

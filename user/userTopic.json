@@ -1,8 +1,7 @@
 {
-  "userTopicId": "ut_12345_topic_react_intro",
+  "Id": "ut_12345_topic_react_intro",
   "userId": "user_12345",
   "topicId": "topic_react_intro",
-  "userModuleId": "um_12345_mod_react_basics",
   "status": "completed",
   "score": 90,
   "max_score": 100,

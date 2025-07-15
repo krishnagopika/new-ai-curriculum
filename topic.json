@@ -1,5 +1,5 @@
 {
-  "topicId": "topic_node_basics",
+  "Id": "topic_node_basics",
   "title": "Node.js Basics",
   "activityType": "topic", 
   "description": "Introduction to Node.js and its features",

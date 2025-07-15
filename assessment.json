@@ -1,5 +1,5 @@
 {
-  "assessmentId": "node_as", 
+  "Id": "node_as", 
   "title": "Node.js assessment",
   "activityType": "Assessment",
   "description": "This assessment tests your knowledge of Node.js concepts.",

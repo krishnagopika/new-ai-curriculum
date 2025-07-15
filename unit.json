@@ -1,10 +1,9 @@
 {
-  "unitId": "",
+  "Id": "",
   "tags": [],
-  "unitName": "Frontend",
+  "unitName": "Frontend Primer",
   "category": "FRONTEND",
   "description": "",
-  "weightage": 100,
   "modules": [
     {
       "moduleId": "",
