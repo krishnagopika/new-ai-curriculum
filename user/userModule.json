@@ -1,0 +1,33 @@
+{
+  "Id": "um_12345_mod_react_basics",
+  "userId": "user_12345",
+  "moduleId": "mod_react_basics",
+  "userUnitId": "uu_12345_unit_frontend_001",
+  "status": "completed",
+  "progress_percentage": 100.0,
+  "started_at": "2024-01-17T10:30:00Z",
+  "completed_at": "2024-01-18T15:45:00Z",
+  "user_activities": [
+    {
+      "userTopicId": "ut_12345_topic_react_intro",
+      "activityId": "topic_react_intro",
+      "activityType": "topic",
+      "order": 1,
+      "mandatory": true
+    },
+    {
+      "userLabId": "ul_12345_lab_react_first_app",
+      "activityId": "lab_react_first_app",
+      "activityType": "lab",
+      "order": 2,
+      "mandatory": true
+    },
+    {
+      "userAssessmentId": "uas_12345_assess_react_quiz",
+      "activityId": "assess_react_quiz",
+      "activityType": "assessment",
+      "order": 3,
+      "mandatory": true
+    }
+  ]
+}

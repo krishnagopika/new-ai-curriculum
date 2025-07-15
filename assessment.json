@@ -1,13 +1,11 @@
 {
-  "assessmentId": "node_as", 
+  "Id": "node_as", 
   "title": "Node.js assessment",
   "activityType": "Assessment",
   "description": "This assessment tests your knowledge of Node.js concepts.",
-  "mandatory": true,
-  "hidden": false,
   "status": "NOT_STARTED",
-  "score": null,
-  "lastAccessed": null,
+  "max_score": 100,
+  "durationMinutes": 60,
   "attempted": false,
   "tags": ["unit", "node"],
   "content": [
