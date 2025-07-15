@@ -1,0 +1,21 @@
+{
+  "assessmentId": "node_as", 
+  "title": "Node.js assessment",
+  "activityType": "Assessment",
+  "description": "This assessment tests your knowledge of Node.js concepts.",
+  "mandatory": true,
+  "hidden": false,
+  "status": "NOT_STARTED",
+  "score": null,
+  "lastAccessed": null,
+  "attempted": false,
+  "tags": ["unit", "node"],
+  "content": [
+    {
+      "contentId": "assessment_node",
+      "type": "quiz",
+      "resourceType": "node_quiz",
+      "url": "https://example.com/assessments/node_quiz"
+    }
+  ]
+}

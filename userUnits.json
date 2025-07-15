@@ -1,18 +1,21 @@
 {
-  "skillId": "skill_node",
-  "skillName": "Node.js",
-  "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-  "level": "PRIMER",
+  "skillId": "skill_frontend",
   "progressPercent": 50,
-  "tags": ["JavaScript", "Backend"],
+  "tags": ["Next.js"],
+  "attenmpt" : 0,
   "contents": [
     {
       "moduleId": "mod_intro_node",
       "title": "Introduction to Node.js",
       "description": "This module covers Node.js basics.",
       "order": 1,
-      "topics": [
+      "category": "PRIMER",
+      "hidden": true,
+      "LearningActivity": [
         {
+
+          "LearningActivityType": "Topic",
+          "activity": {
           "topicId": "topic_node_basics",
           "title": "Node.js Basics",
           "activityType": "VIDEO",
@@ -33,18 +36,23 @@
             },
             {
               "contentId": "cont_node_pdf",
-              "type": "reading",
-              "resourceType": "transcript",
+              "type": "text",
+              "resourceType": "reference_document",
               "url": "https://example.com/docs/node_intro.pdf"
             }
-          ]
+
+          ]}
         },
         {
+          
+          "LearningActivityType": "LAB",
+          "activity": {
           "labId": "lab_node_fs",
           "title": "Node.js File System",
           "activityType": "LAB_CODING",
           "description": "Coding lab on Node.js File System",
           "mandatory": true,
+          "hidden": false,
           "status": "NOT_STARTED",
           "weightage": 20,
           "score": null,
@@ -53,18 +61,19 @@
           "content": [
             {
               "contentId": "lab_node_repo",
-              "type": "lab",
+              "type": "repository",
               "resourceType": "starter_code",
               "url": "https://github.com/example/repo"
             },
             {
               "contentId": "lab_node_ref",
-              "type": "lab",
+              "type": "repository",
               "resourceType": "completed_reference",
               "url": "https://github.com/example/repo"
             }
           ]
         }
+      }
       ]
     },
     {

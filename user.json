@@ -6,40 +6,38 @@
   "category": "EXPERIENCED_DEVELOPER",
   "progress": 75,
   "status": "IN_PROGRESS",
-  "selectedTrainingTracks": [
+  "paths": [
     {
-      "trackId": "track_ai_fullstack_001",
+      "pathId": "path_ai_fullstack_001",
       "role": "AI Powered Fullstack Developer",
-      "skillsByCategory": [
+      "categories": ["AI", "Fullstack"],
+      "units" :  [
+        {
+          "unitId" : "",
+          "completed" : false
+        }
+      ],
+      "unitsByCategory": [
         {
           "category": "FRONTEND",
-          "skills": [
+          "units": [
             {
-              "skillId": "skill_react",
-              "skillName": "React.js",
+              "unitId": "unit_react",
+              "unitName": "React.js",
               "description": "Building user interfaces with React.js",
               "level": "PRIMER",
               "progressPercent": 60,
               "tags": ["JavaScript", "UI"],
-              "contents": []
-            },
-            {
-              "skillId": "skill_css",
-              "skillName": "CSS",
-              "description": "Styling web applications with CSS",
-              "level": "PRIMER",
-              "progressPercent": 40,
-              "tags": ["CSS", "Design"],
               "contents": []
             }
           ]
         },
         {
           "category": "BACKEND",
-          "skills": [
+          "units": [
             {
-              "skillId": "skill_node",
-              "skillName": "Node.js",
+              "unitId": "unit_node",
+              "unitName": "Node.js",
               "description": "Building server-side applications with Node.js",
               "level": "PRIMER",
               "progressPercent": 50,
@@ -47,8 +45,8 @@
               "contents": []
             },
             {
-              "skillId": "skill_express",
-              "skillName": "Express.js",
+              "unitId": "unit_express",
+              "unitName": "Express.js",
               "description": "Creating APIs with Express.js",
               "level": "PRIMER",
               "progressPercent": 30,
@@ -59,10 +57,10 @@
         },
         {
           "category": "AI",
-          "skills": [
+          "units": [
             {
-              "skillId": "skill_openai",
-              "skillName": "OpenAI API",
+              "unitId": "unit_openai",
+              "unitName": "OpenAI API",
               "description": "Using the OpenAI API to generate responses",
               "level": "REGULAR",
               "progressPercent": 20,

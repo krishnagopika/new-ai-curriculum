@@ -1,0 +1,11 @@
+{
+  "moduleId": "mod_intro_node",
+  "title": "Introduction to Node.js",
+  "description": "This module covers Node.js basics.",
+  "order": 1,
+  "category": "PRIMER",
+  "hidden": true,
+  "weightage": 10,
+  "LearningActivity": [
+  ]
+}

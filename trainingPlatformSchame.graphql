@@ -30,9 +30,9 @@ type Skill {
   contents: [SkillContent!]!
 }
 
-union SkillContent = Module | Lab
+union SkillContent = Module | Lab | Assesment
 
-union LearningActivity = Topic | Lab 
+union LearningActivity = Topic | Lab | Assesment
 
 
 type Module {

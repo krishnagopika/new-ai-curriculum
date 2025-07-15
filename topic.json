@@ -1,0 +1,27 @@
+{
+  "topicId": "topic_node_basics",
+  "title": "Node.js Basics",
+  "activityType": "topic", 
+  "description": "Introduction to Node.js and its features",
+  "order": 1,
+  "weightage": 10,
+  "durationMinutes": 30,
+  "mandatory": true,
+  "status": "NOT_STARTED",
+  "lastAccessed": null,
+  "tags": ["node", "intro"],
+  "content": [
+    {
+      "contentId": "cont_node_video",
+      "type": "video",
+      "resourceType": "video",
+      "url": "https://example.com/videos/node_intro.mp4"
+    },
+    {
+      "contentId": "cont_node_pdf",
+      "type": "text",
+      "resourceType": "reference_document",
+      "url": "https://example.com/docs/node_intro.pdf"
+    }
+  ]
+}

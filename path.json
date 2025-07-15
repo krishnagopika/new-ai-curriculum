@@ -1,0 +1,25 @@
+{
+    "pathId": "path_ai_fullstack_001",
+    "role": "AI Powered Fullstack Developer",
+    "categories": ["AI", "Fullstack"],
+    "units": [
+        {
+        "unitId": "",
+        "completed": false
+        }
+    ],
+    "unitsByCategory": [
+        {
+        "category": "FRONTEND",
+        "units": []
+        },
+        {
+        "category": "BACKEND",
+        "units": []
+        },
+        {
+        "category": "DEVOPS",
+        "units": []
+        }
+    ]
+}
