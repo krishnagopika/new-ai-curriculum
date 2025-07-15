@@ -1,0 +1,33 @@
+{
+  "userLabId": "ul_12345_lab_react_first_app",
+  "userId": "user_12345",
+  "labId": "lab_react_first_app",
+  "userModuleId": "um_12345_mod_react_basics",
+  "status": "completed",
+  "score": 80,
+  "max_score": 100,
+  "started_at": "2024-01-18T10:00:00Z",
+  "completed_at": "2024-01-18T15:45:00Z",
+  "time_spent_minutes": 120,
+  "attempts": 2,
+  "submissions": [
+    {
+      "submissionId": "sub_001",
+      "submitted_at": "2024-01-18T14:30:00Z",
+      "repository_url": "https://github.com/user/react-first-app-attempt1",
+      "score": 65,
+      "feedback": "Good start, but missing error handling",
+      "auto_graded": true,
+      "manual_review_required": false
+    },
+    {
+      "submissionId": "sub_002",
+      "submitted_at": "2024-01-18T15:45:00Z",
+      "repository_url": "https://github.com/user/react-first-app-final",
+      "score": 80,
+      "feedback": "Great improvement! All requirements met",
+      "auto_graded": true,
+      "manual_review_required": false
+    }
+  ]
+}

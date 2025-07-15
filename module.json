@@ -6,6 +6,13 @@
   "category": "PRIMER",
   "hidden": true,
   "weightage": 10,
-  "LearningActivity": [
+  "LearningActivities": [
+    {
+      "activityId": "",
+      "activityType": "lab",
+      "weightage": 10,
+      "mandatory": true,
+      "hidden": false
+    }
   ]
 }

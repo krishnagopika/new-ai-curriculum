@@ -1,0 +1,13 @@
+{
+  "userId": "user_12345",
+  "email": "user@example.com",
+  "name": "John Doe",
+  "profile": {
+    "experience_level": "beginner",
+    "learning_preferences": ["visual", "hands-on"],
+    "goals": ["fullstack development", "AI integration"],
+    "timezone": "UTC-5"
+  },
+  "created_at": "2024-01-15T10:30:00Z",
+  "updated_at": "2024-01-15T10:30:00Z"
+}

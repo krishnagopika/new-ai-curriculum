@@ -5,12 +5,10 @@
     "units": [
         {
         "unitId": "",
-        "completed": false,
         "category" : "FRONTEND",
         "unitType" : "PRIMER",
         "mandatory": true,
         "hidden": false
         }
     ]
-
 }

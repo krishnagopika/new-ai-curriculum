@@ -1,12 +1,22 @@
 {
-  "unitId": "unit_frontend",
+  "unitId": "",
   "tags": [],
   "unitName": "Frontend",
   "category": "FRONTEND",
   "description": "",
   "weightage": 100,
-  "mandatory": true,
-  "contents": [
-    
+  "modules": [
+    {
+      "moduleId": "",
+      "weightage": 50,
+      "mandatory": true,
+      "order": 1
+    },
+    {
+      "moduleId": "",
+      "weightage": 50,
+      "mandatory": true,
+      "order": 2
+    }
   ]
 }

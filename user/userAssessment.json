@@ -1,0 +1,18 @@
+{
+  "userAssessmentId": "uas_12345_node_as",
+  "userId": "user_12345",
+  "assessmentId": "node_as",
+  "userModuleId": "um_12345_mod_node_basics",
+  "status": "completed",
+  "score": 85,
+  "max_score": 100,
+  "started_at": "2024-01-19T10:00:00Z",
+  "completed_at": "2024-01-19T10:45:00Z",
+  "time_spent_minutes": 45,
+  "attempts": 1,
+  "attempts_allowed": 3,
+  "passing_score": 70,
+  "passed": true,
+  "help_requests": [],
+  "notes": "Strong performance, understood concepts well"
+}

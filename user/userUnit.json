@@ -1,0 +1,36 @@
+{
+  "userUnitId": "uu_12345_unit_frontend_001",
+  "userId": "user_12345",
+  "unitId": "unit_frontend_001",
+  "userPathId": "up_12345_path_ai_fullstack_001",
+  "status": "in_progress",
+  "progress_percentage": 60.0,
+  "score": 75.5,
+  "started_at": "2024-01-16T10:30:00Z",
+  "completed_at": null,
+  "user_modules": [
+    {
+      "userModuleId": "um_12345_mod_html_css",
+      "moduleId": "mod_html_css",
+      "status": "completed",
+      "progress_percentage": 100.0,
+      "score": 88.0,
+      "order": 1,
+      "mandatory": true
+    },
+    {
+      "userModuleId": "um_12345_mod_react_basics",
+      "moduleId": "mod_react_basics",
+      "status": "in_progress",
+      "progress_percentage": 45.0,
+      "score": 0.0,
+      "order": 2,
+      "mandatory": true
+    }
+  ],
+  "performance_metrics": {
+    "avg_time_per_activity": 25.5,
+    "success_rate": 0.85,
+    "help_requests": 3
+  }
+}

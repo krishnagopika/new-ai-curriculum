@@ -3,11 +3,8 @@
   "title": "Node.js File System",
   "activityType": "LAB_CODING",
   "description": "Coding lab on Node.js File System",
-  "mandatory": true,
-  "hidden": false,
-  "status": "NOT_STARTED",
-  "score": 60,
-  "lastAccessed": null,
+  "max_score": 60,
+  "durationMinutes": 45,
   "tags": ["fs", "lab"],
   "content": [
     {
