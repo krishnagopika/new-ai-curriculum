@@ -5,21 +5,12 @@
     "units": [
         {
         "unitId": "",
-        "completed": false
-        }
-    ],
-    "unitsByCategory": [
-        {
-        "category": "FRONTEND",
-        "units": []
-        },
-        {
-        "category": "BACKEND",
-        "units": []
-        },
-        {
-        "category": "DEVOPS",
-        "units": []
+        "completed": false,
+        "category" : "FRONTEND",
+        "unitType" : "PRIMER",
+        "mandatory": true,
+        "hidden": false
         }
     ]
+
 }
