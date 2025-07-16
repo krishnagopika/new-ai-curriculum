@@ -9,20 +9,27 @@
   "completed_at": "2024-01-18T15:45:00Z",
   "time_spent_minutes": 120,
   "attempts": 2,
+  "start_repo_contentId":"lab_react_repo",
+  "reference_repo_contentId": "lab_react_ref",
+  "user_repo_url": "https://github.com/user/react-first-app-attempt1",
+  "reference_repo_url": "https://github.com/example/repo",
   "submissions": [
     {
       "submissionId": "sub_001",
+      "contentId": "lab_react_repo",
       "current": false,
       "submitted_at": "2024-01-18T14:30:00Z",
-      "repository_url": "https://github.com/user/react-first-app-attempt1",
-      "score": 65
+      "score": 65,
+      "log_file_url": "https://example.com/logs/lab_react_first_app_attempt1.log"
     },
     {
       "submissionId": "sub_002",
       "current": true,
       "submitted_at": "2024-01-18T15:45:00Z",
       "repository_url": "https://github.com/user/react-first-app-final",
-      "score": 80
+      "score": 80,
+      "log_file_url": "https://example.com/logs/lab_react_first_app_attempt1.log"
+
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "contentId": "unique_content_id",
+  "type": "video", 
+  "resourceType": "mp4_file", 
+  "duration" : 60,
+  "url": "https://example.com/resource/path"
+}

@@ -10,22 +10,29 @@
     {
       "userUnitId": "FRONTEND_PRIMER",
       "unitId": "unit_html_css",
-      "added_at": "2024-01-15T10:30:00Z"
+      "added_at": "2024-01-15T10:30:00Z",
+      "default": true
     },
     {
       "userUnitId": "uu_12345_unit_frontend_001",
       "unitId": "unit_frontend_001",
-      "added_at": "2024-01-15T10:30:00Z"
+      "added_at": "2024-01-15T10:30:00Z",
+      "default": true
+
     },
     {
       "userUnitId": "uu_12345_unit_react_001",
       "unitId": "unit_react_001",
-      "added_at": "2024-01-20T14:30:00Z"
+      "added_at": "2024-01-20T14:30:00Z",
+      "default": false
+
     },
     {
       "userUnitId": "uu_12345_unit_primer_001",
       "unitId": "unit_primer_001",
-      "added_at": "2024-01-15T10:30:00Z"
+      "added_at": "2024-01-15T10:30:00Z",
+      "default": true
+
     }
   ],
   "user_choices": {

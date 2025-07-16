@@ -3,8 +3,6 @@
   "userId": "user_12345",
   "topicId": "topic_react_intro",
   "status": "completed",
-  "score": 90,
-  "max_score": 100,
   "started_at": "2024-01-17T11:30:00Z",
   "completed_at": "2024-01-17T12:00:00Z",
   "time_spent_minutes": 35,
@@ -15,14 +13,21 @@
       "duration_watched": 1200,
       "total_duration": 1200,
       "timestamp": "2024-01-17T11:45:00Z",
-      "completed": true
+      "completed": true,
+      "type": "video", 
+      "resourceType": "mp4_file", 
+      "url": "https://example.com/resource/path"
     },
     {
-      "contentId": "cont_react_pdf",
+      "contentId": "cont_react_markdown",
       "interaction_type": "document_viewed",
       "time_spent_seconds": 300,
+      "total_duration": 1200,
       "timestamp": "2024-01-17T11:50:00Z",
-      "completed": true
+      "completed": true,
+      "type": "document", 
+      "resourceType": "md_file", 
+      "url": "https://example.com/resource/path"
     }
   ]
 }
