@@ -6,7 +6,8 @@
     {
       "activityId": "",
       "activityType": "lab",
-      "weightage": 100
+      "weightage": 100,
+      "order": 1
     }
   ]
 }
