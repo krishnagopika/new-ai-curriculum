@@ -1,0 +1,23 @@
+{
+  "Id": "lab_node_fs",
+  "title": "Node.js File System",
+  "activityType": "LAB_CODING",
+  "description": "Coding lab on Node.js File System",
+  "max_score": 60,
+  "durationMinutes": 45,
+  "tags": ["fs", "lab"],
+  "content": [
+    {
+      "contentId": "lab_node_repo",
+      "type": "repository",
+      "resourceType": "starter_code",
+      "url": "https://github.com/example/repo"
+    },
+    {
+      "contentId": "lab_node_ref",
+      "type": "repository",
+      "resourceType": "completed_reference",
+      "url": "https://github.com/example/repo"
+    }
+  ]
+}
