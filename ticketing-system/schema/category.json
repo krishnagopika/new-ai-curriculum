@@ -1,0 +1,11 @@
+{
+    "id":"",
+    "name":"Category",
+    "description":"A category for organizing content",
+    "tags": [
+        {
+            "key": "category",
+            "value": "Category"
+        }
+    ]
+}

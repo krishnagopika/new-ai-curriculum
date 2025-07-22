@@ -1,0 +1,17 @@
+{
+    "id": "",
+    "categoryId": "",
+    "subCategoryId": "",
+    "userId": "",
+    "title": "Ticket",
+    "description": "A ticket for tracking issues or requests",
+    "content": "Detailed description of the ticket",
+    "tagIds": [],
+    "agentId": "",
+    "status": "open",
+    "priority": "medium",
+    "severity": "high",
+    "createdAt": "2023-01-01T00:00:00Z",
+    "updatedAt": "2023-01-01T00:00:00Z",
+    "closedAt": null
+}
